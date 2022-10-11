@@ -71,7 +71,7 @@ public class Main implements Operations {
         }
     }
 
-    // Командный интерфейс пользователя
+    // Обработка команд из пользователя
     public static void userListOperations(int operation) {
         switch (operation) {
             case 1:
@@ -127,7 +127,7 @@ public class Main implements Operations {
         }
     }
 
-    // Командный интерфейс администратора
+    // Обработка команд из интерфейс администратора
     public static void adminListOperation(int operation) {
         switch (operation) {
             case 1:
